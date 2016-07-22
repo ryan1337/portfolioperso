@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+}
+
+/********************* Body ************************************/
+
+body {
+  padding-top: 30px;
+}
+
+.hr1 {
+  border: 1px grey dashed;
+  margin-top: 30px;
+  width: 65%;
+}
+
+
+.imgsection {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.imgsection img{
+  width: 30%;
+}
+
+
+/********************* /Body ************************************/
+
+
+/*********************************************************************/
+/********************* projetahmed ************************************/
+/*********************************************************************/
+.amed {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.bordure {
+  border: 1px solid grey;
+  width: 30%;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.ulliens {
+  list-style-type: none;
+}
+
+
+/********************* /projetahmed ************************************/
+
+
+
+
+/********************* Header ************************************/
+
+header{
+  /*width:100%;*/
+  /*display: flex;*/
+}
+
+
+a {
+  font-size: 20px;
+  font-family: cursive;
+  padding-left: 60px;
+}
+
+nav a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+nav a {
+  color: grey;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 50px;
+  font-family: cursive;
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/********************* /Header ************************************/
+
+/********************* Footer ************************************/
+
+footer {
+  height: 80px;
+  background-color: lightgrey;
+  border-top: 1px dashed grey;
+}
+/********************* /Footer ************************************/
+
+
+
+
+/******************************************RYAN***********************************************/
+
+
+.ryan {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.pryan {
+
+
+}
+
+.pix {
+  display: flex;
+  height:100%;
+  margin-top: 30px;
+}
+
+.pix img {
+  height: 80%;
+  width: 100%;
+  border: 4px dashed #BD4147;
+}
+
+
+
+/*****************************************CONTACT*************************************/
+
+.none {
+  display: none;
+}
+
+.msg {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  width: 110%;
+}
+
+/*form {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+}*/
+
+input {
+  width: 80%;
+  border: 1px dashed #BD4147;
+}
+
+label {
+  display: block;
+  width: 150%;
+
+}
+
+legend {
+}
+
+textarea {
+  border: 1px dashed #BD4147;
+}
+
+.envoy {
+  background-color: lightgrey;
+}
+
+.envoy:hover {
+  background-color: grey;
+  border: 2px solid #BD4147;
+}
+
+/**************************************ABOUT******************************************/
+
+
+.pabout {
+  text-align: center;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.ab li {
+  text-align: center;
+  list-style-type: square;
+  font-family: cursive;
+  font-size: 18px;
+}
+
+
+
+/*======================================MEDIA QUIERIES===================================================*/
+
+
+/*=======================================SMARTPHONE===================================================*/
+
+@media screen and (max-width:768px) {
+
+  .msg {
+    width: 150%;
+  }
+}
