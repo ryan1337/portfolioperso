@@ -45,7 +45,7 @@ header{
 
 a {
   font-size: 20px;
-  font-family: cursive;
+  font-family: "Roboto mono";
   padding-left: 60px;
 }
 
@@ -61,7 +61,7 @@ nav a {
 h1 {
   text-align: center;
   padding-top: 50px;
-  font-family: cursive;
+  font-family: "Roboto mono";
 }
 
 
@@ -71,7 +71,7 @@ h1 {
     width: 100%;
     flex-wrap: wrap;
     border-bottom: 2px dashed grey;
-    height: 80px;
+    height: 55px;
 }
 
 /********************* /Header ************************************/
@@ -136,13 +136,13 @@ footer {
   width: 100%;
 }
 
-/*form {
+.form_request {
   margin: 0;
   padding: 0;
   outline: 0;
   font-size: 100%;
   background: transparent;
-}*/
+}
 
 input {
   width: 80%;
@@ -177,13 +177,13 @@ textarea {
 .pabout {
   text-align: center;
   font-size: 20px;
-  font-family: cursive;
+  font-family: "Roboto mono";
 }
 
 .ab li {
   text-align: center;
   list-style-type: square;
-  font-family: cursive;
+  font-family: "Roboto mono";
   font-size: 18px;
 }
 
