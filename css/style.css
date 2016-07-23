@@ -43,11 +43,11 @@ header{
 }
 
 
-a {
+/*a {
   font-size: 20px;
   font-family: "Roboto mono";
   padding-left: 60px;
-}
+}*/
 
 nav a:hover {
   color: #BD4147;
@@ -56,6 +56,8 @@ nav a:hover {
 
 nav a {
   color: grey;
+  font-size: 20px;
+  font-family: "Roboto mono";
 }
 
 h1 {
@@ -83,6 +85,11 @@ footer {
   background-color: lightgrey;
   border-top: 2px dashed grey;
   width: 100%;
+  text-align: center;
+}
+
+footer p {
+  padding-top: 2.5em;
 }
 /********************* /Footer ************************************/
 
@@ -112,6 +119,12 @@ footer {
   display: flex;
   height:100%;
   margin-top: 30px;
+}
+
+.pix a {
+  font-size: 20px;
+  font-family: "Roboto mono";
+  padding-left: 60px;
 }
 
 .pix img {
@@ -185,6 +198,16 @@ textarea {
   list-style-type: square;
   font-family: "Roboto mono";
   font-size: 18px;
+}
+
+.git {
+  color: inherit;
+}
+
+.git:hover {
+  font-weight: bold;
+  color: inherit;
+  text-decoration: none;
 }
 
 
