@@ -38,8 +38,8 @@ body {
 /********************* Header ************************************/
 
 header{
-  /*width:100%;*/
-  /*display: flex;*/
+  width:100%;
+  display: flex;
 }
 
 
@@ -219,7 +219,39 @@ textarea {
 
 @media screen and (max-width:768px) {
 
+
+/******************************************PROJET*******************************************/
+
+
   .msg {
     width: 150%;
   }
+
+  .wrapper {
+    margin: auto 10px;
+  }
+
+  h1 {
+  text-align: center;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .pix {
+    flex-direction: column;
+  }
+
+  .pix a {
+    padding-left: 5px;
+  }
+
+
+/*****************************************INDEX***************************************/
+
+  .windex {
+    margin: 5.5em auto;
+  }
+
 }
