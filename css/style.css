@@ -5,7 +5,7 @@
 /********************* Body ************************************/
 
 body {
-  padding-top: 30px;
+  padding-top: 0px;
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -31,7 +31,9 @@ body {
 
 /********************* /Body ************************************/
 
-
+.ra {
+  height: 4em;
+}
 
 
 
@@ -73,7 +75,8 @@ h1 {
     width: 100%;
     flex-wrap: wrap;
     border-bottom: 2px dashed grey;
-    height: 55px;
+    height: 70px;
+    line-height: 60px;
 }
 
 /********************* /Header ************************************/
